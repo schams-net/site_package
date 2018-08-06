@@ -1,0 +1,9 @@
+{
+  "name": "schams-net/site-package",
+  "description": "TYPO3 Site Package Extension",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "require": {
+    "typo3/cms-core": ">=8.7.0"
+  }
+}
