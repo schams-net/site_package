@@ -5,7 +5,6 @@ page = PAGE
 page {
   typeNum = 0
 
-  // Part 1: Fluid template section
   10 = FLUIDTEMPLATE
   10 {
     templateRootPaths {
@@ -59,20 +58,22 @@ page {
     }
   }
 
-  // Part 2: CSS file inclusion
   includeCSS {
-    bootstrap = https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+    bootstrap = https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+    bootstrap.integrity = sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO
     bootstrap.external = 1
     website = EXT:site_package/Resources/Public/Css/website.css
   }
 
-  // Part 3: JavaScript file inclusion
   includeJSFooter {
-    jquery = https://code.jquery.com/jquery-3.2.1.slim.min.js
+    jquery = https://code.jquery.com/jquery-3.3.1.slim.min.js
+    jquery.integrity = sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo
     jquery.external = 1
-    popper = https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js
+    popper = https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
+    popper.integrity = sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49
     popper.external = 1
-    bootstrap = https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
+    bootstrap = https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
+    bootstrap.integrity = sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy
     bootstrap.external = 1
     website = EXT:site_package/Resources/Public/JavaScript/website.js
   }
