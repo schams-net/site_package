@@ -1,3 +1,5 @@
+<?php
+
 /*
  * This file is part of the TYPO3 CMS project.
  *
@@ -12,6 +14,20 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-div.container {
-    margin-top: 6rem;
-}
+defined('TYPO3_MODE') || die();
+
+call_user_func(function () {
+    /**
+     * Extension key
+     */
+    $extensionKey = 'site_package';
+
+    /**
+     * Include Page TSConfig
+     */
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
+        $extensionKey,
+        'Configuration/TypoScript/backendlayouts.typoscript',
+        'Backend Layouts'
+    );
+});

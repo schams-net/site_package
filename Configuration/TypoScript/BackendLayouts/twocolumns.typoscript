@@ -1,0 +1,26 @@
+mod.web_layout.BackendLayouts {
+  twocolumns {
+    title = LLL:EXT:site_package/Resources/Private/Language/locallang_be.xlf:backendlayout.twocolumns
+    icon = EXT:site_package/Resources/Public/Images/BackendLayouts/twocolumns.png
+    config {
+      backend_layout {
+        colCount = 2
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Left
+                colPos = 0
+              },
+              2 {
+                name = Right
+                colPos = 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

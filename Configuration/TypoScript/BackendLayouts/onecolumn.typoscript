@@ -1,0 +1,22 @@
+mod.web_layout.BackendLayouts {
+  onecolumn {
+    title = LLL:EXT:site_package/Resources/Private/Language/locallang_be.xlf:backendlayout.onecolumn
+    icon = EXT:site_package/Resources/Public/Images/BackendLayouts/onecolumn.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Content
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
