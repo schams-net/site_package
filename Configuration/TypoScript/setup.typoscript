@@ -7,17 +7,6 @@ page {
 
   10 = FLUIDTEMPLATE
   10 {
-    templateName = TEXT
-    templateName.stdWrap.cObject = CASE
-    templateName.stdWrap.cObject {
-      key.data = pagelayout
-
-      pagets__site_package_default = TEXT
-      pagets__site_package_default.value = Default
-
-      default = TEXT
-      default.value = Default
-    }
     templateRootPaths {
       0 = EXT:site_package/Resources/Private/Templates/Page/
       1 = {$page.fluidtemplate.templateRootPath}
@@ -30,6 +19,29 @@ page {
       0 = EXT:site_package/Resources/Private/Layouts/Page/
       1 = {$page.fluidtemplate.layoutRootPath}
     }
+
+    templateName = TEXT
+    templateName.stdWrap.cObject = CASE
+    templateName.stdWrap.cObject {
+      key.data = pagelayout
+      default = TEXT
+      default.value = Content
+      pagets__home = TEXT
+      pagets__home.value = Home
+      pagets__content = TEXT
+      pagets__content.value = Content
+    }
+
+    file.stdWrap.cObject = CASE
+    file.stdWrap.cObject {
+      key.data = levelfield:-1, backend_layout_next_level, slide
+      key.override.field = backend_layout
+      pagets__home = TEXT
+      pagets__home.value = EXT:site_package/Resources/Private/Templates/Page/Home.html
+      pagets__content = TEXT
+      pagets__content.value = EXT:site_package/Resources/Private/Templates/Page/Content.html
+    }
+
     dataProcessing {
       10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
       10 {
