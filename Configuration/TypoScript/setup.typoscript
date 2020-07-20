@@ -56,8 +56,8 @@ page {
     bootstrap = https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
     bootstrap.integrity = sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk
     bootstrap.external = 1
-    #fontawesome = https://use.fontawesome.com/releases/v5.7.2/css/all.css
-    #fontawesome.integrity = sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr
+    #fontawesome = https://use.fontawesome.com/releases/v5.14.0/css/all.css
+    #fontawesome.integrity = sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc
     #fontawesome.external = 1
     website = EXT:site_package/Resources/Public/Css/website.css
   }
