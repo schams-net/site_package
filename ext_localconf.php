@@ -17,7 +17,7 @@
 defined('TYPO3_MODE') || die();
 
 call_user_func(function () {
-    $extensionKey = 'myextension';
+    $extensionKey = 'site_package';
     // Force loading the TypoScript configuration
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
         $extensionKey,
