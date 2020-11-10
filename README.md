@@ -7,16 +7,18 @@ written by Michael Schams and published by the TYPO3 Documentation Team.
 
 ## Requirements
 
-An **empty** TYPO3 version 10.x.x instance.  
+An **empty** TYPO3 v10 LTS instance.  
 *Note: site package extensions for TYPO3 v8 and v9 are also available. See below.*
 
 ## Installation
 
-The following sections assume, a fresh and empty TYPO3 instance has been set up and is ready to use.
+The following sections assume that a fresh and empty TYPO3 instance has been set up and is ready to use.
 
-### Command Line With "composer"
+### Command Line with "composer"
 
-*To be documented.*
+```bash
+composer require schams-net/site-package:^10
+```
 
 ### Command Line without "composer"
 
