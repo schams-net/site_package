@@ -7,8 +7,8 @@ written by Michael Schams and published by the TYPO3 Documentation Team.
 
 ## Requirements
 
-An **empty** TYPO3 v10 LTS instance.  
-*Note: site package extensions for TYPO3 v8 and v9 are also available. See below.*
+An **empty** TYPO3 v11 LTS instance.  
+*Note: site package extensions for TYPO3 v8, v9, and v10 are also available. See below.*
 
 ## Installation
 
@@ -17,26 +17,8 @@ The following sections assume that a fresh and empty TYPO3 instance has been set
 ### Command Line with "composer"
 
 ```bash
-composer require schams-net/site-package:^10
+composer require schams-net/site-package:^11
 ```
-
-### Command Line without "composer"
-
-*To be documented.*
-
-### ZIP Files from GitHub
-
-Go to [GitHub](https://github.com/schams-net/site_package/) and select on which TYPO3 version you plan to install the Site Package
-(select the appropriate Git branch from the dropdown box, e.g. `TYPO3v10`). Click button "Clone or download" on the right hand side
-and follow the link "Download ZIP". Save the ZIP file on your local machine.
-
-Extract the folder from the downloaded ZIP file, e.g. `site_package-TYPO3v10/`. Open this folder with your favorite file manager and
-create a new ZIP file. Depending on your operating system, this can usually be done by selecting all files and sub-folders, followed
-by a right mouse button click and selecting "Compress" or "Create archive" or similar. Make sure, the file name of the new
-ZIP file reads exactly `site_package.zip` and all files and folders exist on the root level of the ZIP archive.
-
-Login at the backend of your empty TYPO3 instance using a backend user with administrator privileges. Open the Extension Manager and
-upload the newly created ZIP file `site_package.zip`.
 
 ## Activation and Configuration
 
