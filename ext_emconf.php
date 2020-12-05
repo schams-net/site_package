@@ -15,18 +15,18 @@
  */
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'TYPO3 v10 Site Package',
-    'description' => 'TYPO3 v10 Site Package (frontend theme)',
+    'title' => 'TYPO3 v11 Site Package',
+    'description' => 'TYPO3 v11 Site Package (frontend theme)',
     'category' => 'templates',
     'author' => 'Michael Schams',
     'author_email' => 'typo3@2020.schams.net',
     'author_company' => 'schams.net',
-    'version' => '10.4.0',
+    'version' => '11.0.0',
     'state' => 'beta',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.0.0-10.4.99',
-            'fluid_styled_content' => '10.0.0-10.4.99'
+            'typo3' => '11.0.0-11.5.99',
+            'fluid_styled_content' => '11.0.0-11.5.99'
         ],
         'conflicts' => [
         ],
