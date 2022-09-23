@@ -7,8 +7,8 @@ written by Michael Schams and published by the TYPO3 Documentation Team.
 
 ## Requirements
 
-An **empty** TYPO3 v11 LTS instance.  
-*Note: site package extensions for TYPO3 v8, v9, and v10 are also available. See below.*
+An **empty** TYPO3 v12 instance.  
+*Note: site package extensions for TYPO3 v8, v9, v10 and v11 are also available. See below.*
 
 ## Installation
 
@@ -17,7 +17,7 @@ The following sections assume that a fresh and empty TYPO3 instance has been set
 ### Command Line with "composer"
 
 ```bash
-composer require schams-net/site-package:^11
+composer require schams-net/site-package:^12
 ```
 
 ## Activation and Configuration
@@ -28,7 +28,7 @@ composer require schams-net/site-package:^11
 
 The MIT License
 
-Copyright (c) 2018-2020 Michael Schams, https://schams.net
+Copyright (c) 2018-2022 Michael Schams, <https://schams.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
 (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
