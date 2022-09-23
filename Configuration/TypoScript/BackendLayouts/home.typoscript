@@ -1,22 +1,35 @@
 mod.web_layout.BackendLayouts {
-  home {
-    title = LLL:EXT:site_package/Resources/Private/Language/locallang_be.xlf:backendlayout.home
-    icon = EXT:site_package/Resources/Public/Images/BackendLayouts/home.png
-    config {
-      backend_layout {
-        colCount = 1
-        rowCount = 1
-        rows {
-          1 {
-            columns {
-              1 {
-                name = Content
-                colPos = 0
-              }
+    home {
+        title = LLL:EXT:site_package/Resources/Private/Language/locallang_be.xlf:backendlayout.home
+        icon = EXT:site_package/Resources/Public/Images/BackendLayouts/home.png
+        config {
+            backend_layout {
+                colCount = 2
+                rowCount = 2
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = Top Banner
+                                colPos = 0
+                                colspan = 2
+                            }
+                        }
+                    }
+                    2 {
+                        columns {
+                            1 {
+                                name = Left
+                                colPos = 1
+                            }
+                            2 {
+                                name = Right
+                                colPos = 2
+                            }
+                        }
+                    }
+                }
             }
-          }
         }
-      }
     }
-  }
 }
