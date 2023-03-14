@@ -56,6 +56,7 @@ page {
     bootstrap = https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
     bootstrap.integrity = sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T
     bootstrap.external = 1
+    bootstrap.crossorigin = anonymous
     #fontawesome = https://use.fontawesome.com/releases/v5.7.2/css/all.css
     #fontawesome.integrity = sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr
     #fontawesome.external = 1
@@ -66,12 +67,15 @@ page {
     jquery = https://code.jquery.com/jquery-3.3.1.slim.min.js
     jquery.integrity = sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo
     jquery.external = 1
+    jquery.crossorigin = anonymous
     popper = https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js
     popper.integrity = sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1
     popper.external = 1
+    popper.crossorigin = anonymous
     bootstrap = https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js
     bootstrap.integrity = sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM
     bootstrap.external = 1
+    bootstrap.crossorigin = anonymous
     website = EXT:site_package/Resources/Public/JavaScript/website.js
   }
 }
