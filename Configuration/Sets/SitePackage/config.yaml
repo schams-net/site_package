@@ -1,5 +1,5 @@
 name: schams-net/site-package
-label: TYPO3 v13.x Site Package
+label: TYPO3 v14.x Site Package
 
 # Load TypoScript, TSconfig and settings from dependencies
 dependencies:
